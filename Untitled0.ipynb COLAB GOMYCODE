@@ -1,0 +1,125 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNXmffolBuF/0M53znvkzmy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Yassineabdelhedi379/CP0/blob/main/Untitled0.ipynb%20COLAB%20GOMYCODE\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ezgtn_WOLFPL",
+        "outputId": "9afc6ad6-76b5-4df6-a7f1-8e56f1ef9b28"
+      },
+      "source": [
+        "#question number 1 :\n",
+        "x =input()\n",
+        "y =input()\n",
+        "print(y,x)"
+      ],
+      "execution_count": 140,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "yassine\n",
+            "abdelhedi\n",
+            "abdelhedi yassine\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yJlDqg_NIM0i",
+        "outputId": "f7e388ba-b880-49d9-8d15-a874cc4ccd62"
+      },
+      "source": [
+        "#question number 2 :\n",
+        "n= 5 \n",
+        "print(5+55+555)"
+      ],
+      "execution_count": 147,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "615\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n5JtctSZPOcM",
+        "outputId": "9d91906f-e4fd-4b30-92be-908248aced9d"
+      },
+      "source": [
+        "#question number 3 :\n",
+        "n=int (input(\"n :\"))\n",
+        "if (n %2==0) :\n",
+        "   print(n, \"is an even number\")\n",
+        "else:\n",
+        "  print(n, \"is an odd number\")"
+      ],
+      "execution_count": 174,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "n :2\n",
+            "2 is an even number\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_zVSYjjrYX4A"
+      },
+      "source": [
+        "from 2000 to 3200"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
