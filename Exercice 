@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNjoMjUpnLa9sF1SxzjzRcX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Yassineabdelhedi379/CP0/blob/main/Exercice%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sjtIakY2hdiy",
+        "outputId": "844cde45-5fad-4823-d902-802bd73d3aeb"
+      },
+      "source": [
+        "my_list=['c45a6','2ab19','d5a67']\n",
+        "print('initial list:',my_list)\n",
+        "numerics='0123456789'\n",
+        "my_num=[]\n",
+        "for i in my_list:\n",
+        "  sh=''\n",
+        "  for j in i:\n",
+        "    if j in numerics:\n",
+        "      sh+=j\n",
+        "  my_num.append(sh)\n",
+        "print('numerical list:',my_num)\n",
+        "for e,i in enumerate(my_num):\n",
+        "  if(int(i[0])<int(i[1])):\n",
+        "    count=0\n",
+        "    while(count+1<len(i) and i[count]< i[count+1]):\n",
+        "      count+=1\n",
+        "    if(count+1==len(i)):\n",
+        "      print(e+1,':','ordered from smaller to bigger')\n",
+        "      my_list[e]=True\n",
+        "    else:\n",
+        "      my_list[e]=False\n",
+        "  elif(int(i[0])>int(i[1])):\n",
+        "    count=0\n",
+        "    while(count+1<len(i) and i[count]> i[count+1]):\n",
+        "      count+=1\n",
+        "    if(count+1==len(i)):\n",
+        "      print(e+1,':','ordered from bigger to smaller')\n",
+        "      my_list[e]=True\n",
+        "    else:\n",
+        "      my_list[e]=False\n",
+        "print(my_list)"
+      ],
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "initial list: ['c45a6', '2ab19', 'd5a67']\n",
+            "numerical list: ['456', '219', '567']\n",
+            "1 : ordered from smaller to bigger\n",
+            "3 : ordered from smaller to bigger\n",
+            "[True, False, True]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
